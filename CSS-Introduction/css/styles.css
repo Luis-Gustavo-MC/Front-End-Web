@@ -1,0 +1,319 @@
+h3{
+    color: green;
+}
+.paragraph{
+    background-color: black;
+    color: blue;
+}
+
+#exclusive-title{
+    background-color: purple;
+    color: black;
+}
+
+#any-text{
+    background-color: brown;
+    color: black;
+}
+
+.title{
+    background-color: blue;
+    color: black;
+}
+
+h2{
+    background-color: green;
+    color: black;
+}
+
+.color-name{
+    color: crimson;
+}
+/* Hex */
+.hex{
+    color: #55a398;
+}
+/* Simple Hex, cut the repeated informations*/
+.simple-hex{
+    color: #a5f;
+}
+.simple-hex{
+    color: #333;
+}
+/* RGB */
+.rgb{
+    color: rgb(255, 0, 0)
+}
+
+/* RGBa */
+.rgba{
+    color: rgba(100,199,45);
+}
+
+/* HSL */
+.hsl{
+    color: hsl(100, 20%, 50%);
+}
+
+.hsl-2{
+    color: hsl(200, 50%, 50%);
+}
+
+/* Background */
+.bg{
+    background-color: #000;
+    color: yellow;
+}
+
+.bg-2{
+    background-color: rgb(200, 20, 40);
+    color: #00eaff;
+}
+
+.bg-opacity{
+    background-color: green;
+    opacity: 0.2;
+}
+
+/* RGBa with opacity */
+.rgba{
+    background-color: rgba(90,120,20,0.2);
+    color: #000;
+}
+
+.bg-image{
+    background-image: url("../css/img/background.jpg");
+    padding: 10px;
+    color: #fff;
+}
+
+/* Centralizando bg image */
+.not-centered-bg,
+.centered-bg{
+    height: 400px;
+    width: 400px;
+    background-image: url(../css/img/background.jpg);
+}
+.centered-bg{
+    background-position: center;
+    background-size: cover;
+}
+
+/* height and width*/
+
+.height-width{
+    height: 200px;
+    width: 100px;
+    background-color: red;
+
+}
+.height-width-2{
+    height: 300px; 
+    background-color: black;
+}
+
+/* Padding */
+
+.with-out-padding,
+.padding{
+    background-color: #111;
+    color: #fff;
+}
+
+.padding{
+    background-color: #111111de;
+    padding: 20px;
+}
+
+.individual-padding{
+    background-color: #222;
+    color: #fff;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+
+.shorthand-padding{
+    background-color: #444;
+    padding: 6px 12px 18px 24px;
+}
+.shorthand-padding-2{
+    background-color: #444;
+    padding: 10px 20px;
+}
+
+.without-border-box{
+    background-color: #444;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+}
+
+.border-box{
+    background-color: #666;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+/* Border */
+.border{
+    border: 5px, solid red;
+    padding: 10px;
+}
+
+.border-2{
+    border: 2px dotted #931;
+    padding: 25px;
+}
+
+/* Individual border */
+.border-left{
+    border-left: 3px solid red;
+}
+.border-bottom{
+    border-bottom: 3px double red;
+}
+
+.border-radius{
+    border: 3px solid blue;
+    background-color: #000;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+/* Margin */
+.margin{
+    margin: 10px;
+    background-color: #000;
+}
+.margin-top{
+    margin-top: 50px;
+    background-color: #000;
+}
+
+.margin-shorthand{
+    margin: 10px 25px 30px 60px;
+    background-color: #900;
+}
+
+.box-model{
+    margin: 20px;
+    padding: 15px 25px;
+    border: 3px solid red;
+    border-radius: 7px;
+    width: 200px;
+    height: 400px;
+}
+/* Text align */
+.text-aligned{
+    text-align: right;
+}
+.container-center{
+    text-align: center;
+    width: 300px ;
+    border: #900;
+}
+/* Text Decoration */
+.underline{
+    text-decoration: underline;
+}
+.line-trough{
+    text-decoration: line-through;
+}
+.remove-underline{
+    text-decoration: none;
+}
+.upper{
+    text-transform: uppercase;
+}
+.lower{
+    text-transform: lowercase;
+}
+.spacing{
+    letter-spacing: 5px;
+}
+/* Fonts */
+.serif{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sans-serif{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.monospace{
+    font-family: 'Courier New', Courier, monospace;
+}
+.cursive{
+    font-family: cursive;
+}
+.fantasy{
+    font-family: fantasy;
+}
+/* font-style */
+.italic{
+    font-style: italic;
+}
+.oblique{
+    font-style: oblique;
+}
+.thin, .bold, .bolder{
+    font-family: Helvetica;
+}
+.thin{
+    font-weight: 100;
+}
+.bold{
+    font-weight: 600;
+}
+.bolder{
+    font-weight: 900;
+}
+/* Font-size */
+.small{
+    font-size: 40;
+}
+.big{
+    font-size:large;
+}
+
+/* Display */
+.inline-box{
+    width: 50px;
+    height: 50px;
+    background-color: #4f8;
+    margin: 10px;
+    display: inline-block;
+}
+
+.block{
+    background-color: #333;
+    display: block;
+    margin: 10px;
+}
+
+.invisible{
+    display: none;
+}
+
+/* Static */
+.static{
+    position: static;
+    background-color: #391;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+}
+
+/* Relative */
+.relative{
+    position: relative;
+    background-color: #900;
+    color: white;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 100px;
+}
