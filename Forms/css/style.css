@@ -1,0 +1,8 @@
+body{
+    padding-bottom: 500px;
+}
+
+div, input, label{
+    margin-bottom: 10px;
+    display: block;
+}
