@@ -9,10 +9,29 @@
 <body>
     <h2>Form in HTML</h2>
     <!-- 1 - First Form -->
-     <!-- 2 - Forms Atributs -->
+    <!-- 2 - Forms Atributs -->
     <form action="register.php" method="POST">
-        <label>Name</label>
-        <input type="text">
+        <div>
+            <label>Name:</label>
+            <input type="text">
+        </div>
+    <!-- 3 - Input Type Name-->
+        <div>
+            <!-- 4 - For -->
+            <label for="Age">Age:</label>
+            <input type="text" name="Age">
+        </div>
+    <!-- 6 - Select -->
+     <div>
+        <label for="Job">Select your job</label>
+        <select name="Job">
+            <option value="dev">Developer</option>
+            <option value="tester">Tester/QA</option>
+            <option value="dev">DevOps</option>
+        </select>
+     </div>
+    <!-- 5 - Form Send -->
+    <input type="Submit" value="Submit">
     </form>
 </body>
 </html>
