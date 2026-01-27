@@ -53,6 +53,27 @@
         <label for="comment">Write what do you fink about the post</label>
         <textarea name="comment"></textarea>
       </div>
+    <!-- 10 - Fieldset and legend -->
+      <div>
+        <fieldset>
+            <legend>Fill in with your informations</legend>
+            <label for="firstname">Name:</label>
+            <input type="text" name="firstname">
+            <label for="lastname">Lastname:</label>
+            <input type="text" name="lastname">
+        </fieldset>
+      </div>
+    <!-- 11 - Datalist -->
+     <div>
+        <label for="flavor">Choice the flavor</label>
+        <input type="text" name="flavor" list="flavors">
+        <datalist id="flavors">
+            <option value="Cherry"></option>
+            <option value="Strawberry"></option>
+            <option value="Pineapple"></option>
+            <option value="Chocolate"></option>
+        </datalist>
+     </div>
     <!-- 5 - Form Send -->
     <input type="Submit" value="Submit">
     </form>
