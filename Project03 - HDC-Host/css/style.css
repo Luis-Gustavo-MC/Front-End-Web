@@ -256,4 +256,9 @@ nav{
     color: #fff;
     cursor: pointer;
 }
-/*  */
+/* Footer */
+footer{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+}
