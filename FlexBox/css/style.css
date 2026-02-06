@@ -1,0 +1,14 @@
+body{
+    padding-bottom: 500px;
+}
+/* 1 - Flex */
+.flex{
+    display: flex;
+    background-color: #ddd;
+    margin-bottom: 20px;
+}
+/* 2 - Flex Column */
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
