@@ -22,7 +22,7 @@ header ul{
 .google{
     text-align: center;
     margin:200px auto auto auto;
-    border: #fff solid 1px;
+    /* border: #fff solid 1px; */
 }
 .google h2{
     font-size: 70px;
@@ -31,15 +31,23 @@ header ul{
 }
 .google form{
     padding-top: -100px;
-
 }
 .google li{
     margin-top: 100px;
 }
 .google input{
-
+    padding: 10px 200px;
+    border-radius: 7%;
+    background-color: #0000003a;
+}
+.google button{
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #0000003a;
+    border-radius: 2%;
+    margin: 20px 5px 5px 5px;
 }
 footer{
     margin: 500px auto 0 auto;
-    background-color: #000000a6;
+    background-color: #000;
 }
