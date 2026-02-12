@@ -84,6 +84,7 @@ body{
 .gap .box{
     width: 32%;
 }
+
 /* Order */
 .order{
     display: flex;
@@ -97,6 +98,7 @@ body{
 #three{
     order: 3;
 }
+
 /* grow */
 .grow{
     display: flex;
@@ -106,4 +108,15 @@ body{
 }
 .grow #big{
     flex: 2;
+}
+
+/* Basis */
+.Basis{
+    display: flex;
+}
+.Basis .box{
+    flex-basis: 20px;
+}
+.Basis #big{
+    flex-grow: 1;
 }
