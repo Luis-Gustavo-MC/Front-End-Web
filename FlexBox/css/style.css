@@ -120,3 +120,39 @@ body{
 .Basis #big{
     flex-grow: 1;
 }
+/* Shrink */
+.shrink{
+    display: flex;
+}
+.shrink .box{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 250px;
+    width: auto;
+}
+.shrink #small{
+    flex-shrink: 2;
+}
+
+/* shorthand */
+.shorthand{
+    display: flex;
+}
+.shorthand .box{
+    width: auto;
+    flex: 1 1 50px;
+}
+.shorthand .box-different{
+    flex: 1 1 500px;
+    border: 1px red solid;
+}
+/* auto alinhamento */
+.auto-alignment{
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    border: 1px solid red;
+}
+.auto-alignment .box-different{
+    align-self: center;
+}
